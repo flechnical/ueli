@@ -140,6 +140,7 @@ export const settingsComponent = Vue.extend({
                 <user-confirmation :translations="translations"></user-confirmation>
                 <browser-bookmark-settings :config="config" :translations="translations"></browser-bookmark-settings>
                 <control-panel-settings :config="config" :translations="translations"></control-panel-settings>
+                <proportions-calculator-settings :config="config" :translations="translations"></proportions-calculator-settings>
             </div>
         </div>
     `,
