@@ -2757,9 +2757,9 @@ fsevents@^2.1.2, fsevents@~2.1.2:
   integrity sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==
 
 fuse.js@^5.0.3-beta:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-5.2.3.tgz#fdf3aa62859782b3f73ddfa57a9ca81517280c91"
-  integrity sha512-ld3AEgKtKnnXCtJavtygAb+aLlD5aVvLwTocXXBSStLA6JGFI6oMxTvumwh46N2/3gs3A7JNDu1px5F1/cq84g==
+  version "5.0.3-beta"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-5.0.3-beta.tgz#d55902991668c35f02a0bde3716e77d9ccdd7ddb"
+  integrity sha512-qFwkphslMolmTkA8uQgC5FVfuVKvTapfsrSYXgRS0PJGBvIYAh+vj6wyoA29I8PEIpdXJPHztBLznsmMtvE7CA==
 
 gensync@^1.0.0-beta.1:
   version "1.0.0-beta.1"
