@@ -35,10 +35,10 @@ export class ProportionsCalculatorPlugin implements ExecutionPlugin {
     fallback?: boolean | undefined
   ): Promise<SearchResultItem[]> {
     return new Promise((resolve, reject) => {
-      const strippedInput: string = userInput.replace(this.config.prefix, "");
+      const strippedInput: string = userInput.replace(this.config.prefix, "").replace(/,/g, ".");
       const resultsArray: SearchResultItem[] = [];
       const result: string[] = ProportionsCalculator.calculate(strippedInput).split("|");
-      if (this.config.decimalComma && result[2] === "done") result[0] = result[0].replace(".", ",");
+      if (this.config.decimalComma && result[2] === "done") result[0] = result[0].replace(/\./g, ",");
       resultsArray.push({
         description: (result[2] === "done") ? `[in ${result[1]}] Press Enter to copy the output.` : "",
         executionArgument: result[0],
